@@ -1,0 +1,81 @@
+:root {
+  --primary: #0066FF;
+  --primary-dark: #0052CC;
+  --secondary: #FF6B35;
+  --dark: #0A0F1C;
+  --dark-secondary: #1A2332;
+  --text-light: #E8ECF2;
+  --text-muted: #8B95A8;
+  --success: #00D4AA;
+  --gradient-1: linear-gradient(135deg, #0066FF 0%, #00D4AA 100%);
+  --gradient-2: linear-gradient(135deg, #FF6B35 0%, #FFB800 100%);
+  --shadow-sm: 0 2px 8px rgba(0, 102, 255, 0.1);
+  --shadow-lg: 0 20px 60px rgba(0, 102, 255, 0.2);
+  --radius: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--primary);
+  color: white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}

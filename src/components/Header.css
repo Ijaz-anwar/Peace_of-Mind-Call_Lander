@@ -1,0 +1,262 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: transparent;
+}
+
+.header.scrolled {
+  background: rgba(10, 15, 28, 0.95);
+  backdrop-filter: blur(20px);
+  padding: 12px 0;
+  box-shadow: 0 4px 30px rgba(0, 102, 255, 0.1);
+}
+
+.my-vibrate-button {
+  animation: vibrate 0.9s infinite;
+}
+
+@keyframes vibrate {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-light);
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--gradient-1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  animation: logoFloat 3s ease-in-out infinite;
+}
+
+.logo-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.logo-text {
+  font-family: 'Syne', sans-serif;
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav a {
+  color: var(--text-light);
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gradient-1);
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav a:hover {
+  color: var(--primary);
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-light);
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.phone-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.phone-link svg {
+  width: 18px;
+  height: 18px;
+  color: var(--primary);
+}
+.desktop{
+  width: 24%;
+}
+
+.cta-button {
+  padding: 12px 28px;
+  background: var(--gradient-1);
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 102, 255, 0.3);
+  font-size: 15px;
+  letter-spacing: 0.3px;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 102, 255, 0.4);
+}
+
+.cta-button:active {
+  transform: translateY(-1px);
+}
+
+/* Mobile styles */
+@media (max-width: 968px) {
+  .header-content {
+    gap: 20px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .phone-link {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+
+  .phone-link svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .phone-link span {
+    display: inline; /* Always show phone number */
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 15px 0;
+  }
+
+  .header.scrolled {
+    padding: 10px 0;
+  }
+
+  .header-content {
+    gap: 10px;
+  }
+
+  .header-actions {
+    gap: 10px;
+  }
+
+  .phone-link {
+    font-size: 14px;
+    padding: 8px 12px;
+    gap: 4px;
+    white-space: nowrap;
+  }
+
+  .phone-link svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .phone-link span {
+    display: inline; /* Always show phone number */
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+   .desktop{
+    width: 65px;
+  }
+}
+
+@media (max-width: 400px) {
+  .phone-link {
+    font-size: 14px;
+    padding: 7px 10px;
+    gap: 3px;
+  }
+
+  .phone-link span {
+    display: inline; /* Always show phone number */
+  }
+
+  .logo img {
+    max-width: 80px;
+  }
+  .desktop{
+    width: 60px;
+  }
+}
