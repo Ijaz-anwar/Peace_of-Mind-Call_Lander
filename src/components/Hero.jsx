@@ -33,7 +33,6 @@ const Hero = () => {
               <a
                 href="tel:+18335494113"
                 className="btn-primary"
-                onClick={() => { if (typeof window.fbq === 'function') window.fbq('track', 'Contact'); }}
               >
                 <span>+1 833-549-4113</span>
               </a>
