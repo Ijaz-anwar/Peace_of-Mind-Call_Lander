@@ -1,5 +1,6 @@
 import AutoInsuranceChatbot from './AutoInsuranceChatbot'
 import './Hero.css'
+import { handlePhoneCall } from '../utils/pixelTracking';
 
 const Hero = () => {
   return (
@@ -30,13 +31,12 @@ const Hero = () => {
             </p>
 
             <div className="hero-actions">
-              <a
-                href="tel:+18335494113"
+              <button
                 className="btn-primary"
-                onClick={() => { if (typeof window.fbq === 'function') window.fbq('track', 'Contact'); }}
+                onClick={(e) => handlePhoneCall('+18335494113', e)}
               >
                 <span>+1 833-549-4113</span>
-              </a>
+              </button>
               {/* <button className="btn-primary">
                 <span>+1 (979) 240-1495</span>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

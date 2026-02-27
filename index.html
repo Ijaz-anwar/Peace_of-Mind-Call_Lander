@@ -26,8 +26,10 @@
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
 
-    fbq('init', '540753639115774');
+    console.log('FB Pixel: Initializing...');
+    fbq('init', '540753639115774', {}, { autoConfig: false });
     fbq('track', 'PageView');
+    console.log('FB Pixel: PageView tracked.');
   </script>
   <!-- End Meta Pixel Code -->
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './AutoInsuranceChatbot.css';
+import { handlePhoneCall } from '../utils/pixelTracking';
 
 const AutoInsuranceChatbot = ({ isOpen, onClose }) => {
   const [step, setStep] = useState(0);
@@ -256,7 +257,7 @@ const AutoInsuranceChatbot = ({ isOpen, onClose }) => {
               {msg.type === 'phone' && (
                 <div className="aic-bubble">
                   <div className="aic-phone-wrapper">
-                    <a href="tel:+18335494113" className="aic-phone-btn" onClick={() => { if (typeof window.fbq === 'function') window.fbq('track', 'Contact'); }}>
+                    <a href="#" className="aic-phone-btn" onClick={(e) => handlePhoneCall('+18335494113', e)}>
                       +1 (833) 549-4113
                     </a>
                     <div className="aic-availability">
