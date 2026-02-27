@@ -8,15 +8,15 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <div className="footer-logo">
-               <img  style={{
-          width: "25%",
-          height: "10%",
-          objectFit: "cover"
-        }}
-        src="https://peaceofmind-co.com/wp-content/uploads/2025/08/1000176243-removebg-preview-1.png"
-        alt="Auto Insurance Illustration"
-        className="w-full h-full object-cover"
-      />
+              <img style={{
+                width: "25%",
+                height: "10%",
+                objectFit: "cover"
+              }}
+                src="https://peaceofmind-co.com/wp-content/uploads/2025/08/1000176243-removebg-preview-1.png"
+                alt="Auto Insurance Illustration"
+                className="w-full h-full object-cover"
+              />
               {/* <div className="logo-icon">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -27,7 +27,7 @@ const Footer = () => {
               {/* <span className="logo-text">AutoInsure Expert</span> */}
             </div>
             <p className="footer-description">
-              Your trusted U.S. partner for comprehensive auto insurance since 1999. 
+              Your trusted U.S. partner for comprehensive auto insurance since 1999.
               Protecting what matters most to you.
             </p>
             {/* <div className="footer-social">
@@ -96,7 +96,7 @@ const Footer = () => {
 
         <div className="footer-disclaimer">
           <p>
-            <strong>Important Legal Disclosure:</strong> This website is not a government agency. Peace of Mind Insurance is a private lead generation service owned and operated by Capital Media Agency & Peace of Mind Insurance. Insurance plans referenced may not meet Affordable Care Act (ACA) requirements and availability varies in all states. By submitting your information, you provide express written consent to be contacted by Capital Media Agency & Peace of Mind Insurance via phone call, text message, or email, including through autodialed, AI, or prerecorded messages, even if your number is on a state or national Do Not Call registry.
+            <strong>Important Legal Disclosure:</strong> This website is not a government agency. Peace of Mind Insurance is a private lead generation service owned and operated by Capital Media Agency, Centerfield and Peace of Mind Insurance. Insurance plans referenced may not meet Auto Insurance requirements and availability varies in all states. By submitting your information, you provide express written consent to be contacted by Capital Media Agency, Centerfield and Peace of Mind Insurance via phone call, text message, or email, including through autodialed, AI, or prerecorded messages, even if your number is on a state or national Do Not Call registry.
           </p>
           <p>
             Your personal information may be shared with licensed insurance agents or third-party partners for marketing purposes or to contact you via voice call or email only; text messaging originator opt-in data and consent will not be shared with any third parties. Submitting your information constitutes permission for an agent to contact you regarding available Auto Insurance coverage options, which may include Major Medical, Short-Term, Fixed Indemnity, or other insurance products. Plan availability, descriptions, and quotes may vary. By using this site, you agree to the <Link to="/terms-conditions">Terms of Service</Link> and <Link to="/privacy-policy">Privacy Policy</Link>.

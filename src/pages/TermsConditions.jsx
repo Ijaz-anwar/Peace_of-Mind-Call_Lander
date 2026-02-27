@@ -20,20 +20,20 @@ const TermsConditions = () => {
           <section className="legal-section">
             <h2>General</h2>
             <p>
-              This website (the "Site") is owned and operated by Capital Media Agency & Peace of Mind Insurance ("COMPANY," "we" or "us"). By using the Site, you agree to be bound by these Terms of Service and to use the Site in accordance with these Terms of Service, our Privacy Policy and any additional terms and conditions that may apply to specific sections of the Site or to products and services available through the Site or from COMPANY. Accessing the Site, in any manner, whether automated or otherwise, constitutes use of the Site and your agreement to be bound by these Terms of Service.
+              This website (the "Site") is owned and operated by Capital Media Agency, Centerfield and Peace of Mind Insurance ("COMPANY," "we" or "us"). By using the Site, you agree to be bound by these Terms of Service and to use the Site in accordance with these Terms of Service, our Privacy Policy and any additional terms and conditions that may apply to specific sections of the Site or to products and services available through the Site or from COMPANY. Accessing the Site, in any manner, whether automated or otherwise, constitutes use of the Site and your agreement to be bound by these Terms of Service.
             </p>
             <p>
               We reserve the right to change these Terms of Service or to impose new conditions on use of the Site, from time to time, in which case we will post the revised Terms of Service on this website. By continuing to use the Site after we post any such changes, you accept the Terms of Service, as modified.
             </p>
             <p>
-              By submitting an inquiry you agree that a licensed insurance agent with Peace of Mind Insurance or Capital Media Agency may contact you by phone, text message or email. You expressly consent to receive phone calls (including autodialed and/or pre-recorded calls) text messages and email using automated technology at the phone number and email address you provided, even if it is a wireless number, regardless of whether you are on any Federal or state DNC ("Do Not Call") and/or DNE ("Do Not Email") list or registry. In addition, you understand and acknowledge that data and message rates may apply. Furthermore, you acknowledge that you are over 18 years of age. You may revoke your express consent at any time by contacting us via <a href="tel:+18335494113">+1 833-549-4113</a>.
+              By submitting an inquiry you agree that a licensed insurance agent with Peace of Mind Insurance or Capital Media Agency, Centerfield and Peace of Mind Insurance may contact you by phone, text message or email. You expressly consent to receive phone calls (including autodialed and/or pre-recorded calls) text messages and email using automated technology at the phone number and email address you provided, even if it is a wireless number, regardless of whether you are on any Federal or state DNC ("Do Not Call") and/or DNE ("Do Not Email") list or registry. In addition, you understand and acknowledge that data and message rates may apply. Furthermore, you acknowledge that you are over 18 years of age. You may revoke your express consent at any time by contacting us via <a href="tel:+18335494113">+1 833-549-4113</a>.
             </p>
           </section>
 
           <section className="legal-section">
             <h2>Text Messaging Program Terms</h2>
             <p>
-              By providing your mobile phone number and submitting a form on this website, you agree to participate in the Peace of Mind Insurance Text Messaging Program, operated by Capital Media Agency & Peace of Mind Insurance.
+              By providing your mobile phone number and submitting a form on this website, you agree to participate in the Peace of Mind Insurance Text Messaging Program, operated by Capital Media Agency, Centerfield and Peace of Mind Insurance.
             </p>
             <h3>Program Description</h3>
             <p>
@@ -162,7 +162,7 @@ const TermsConditions = () => {
           <section className="legal-section">
             <h2>Important Legal Disclosure</h2>
             <p>
-              This website is not a government agency. Peace of Mind Insurance is a private lead generation service owned and operated by Capital Media Agency & Peace of Mind Insurance. Insurance plans referenced may not meet Affordable Care Act (ACA) requirements and may not be available in all states. By submitting your information, you provide express written consent to be contacted by Capital Media Agency & Peace of Mind Insurance via phone call, text message, or email, including through autodialed, AI, or prerecorded messages, even if your number is on a state or national Do Not Call registry. Message frequency may vary and message and data rates may apply. Only Capital Media Agency & Peace of Mind Insurance may send text messages.
+              This website is not a government agency. Peace of Mind Insurance is a private lead generation service owned and operated by Capital Media Agency, Centerfield and Peace of Mind Insurance. Insurance plans referenced may not meet Auto Insurance requirements and may not be available in all states. By submitting your information, you provide express written consent to be contacted by Capital Media Agency, Centerfield and Peace of Mind Insurance via phone call, text message, or email, including through autodialed, AI, or prerecorded messages, even if your number is on a state or national Do Not Call registry. Message frequency may vary and message and data rates may apply. Only Capital Media Agency, Centerfield and Peace of Mind Insurance may send text messages.
             </p>
             <p>
               Your personal information may be shared with licensed insurance agents or third-party partners for marketing purposes or to contact you via voice call or email only; text messaging originator opt-in data and consent will not be shared with any third parties. Submitting your information constitutes permission for an agent to contact you regarding available Auto Insurance coverage options, which may include Major Medical, Short-Term, Fixed Indemnity, or other insurance products. Plan availability, descriptions, and quotes may vary. By using this site, you agree to the Terms of Service and Privacy Policy.

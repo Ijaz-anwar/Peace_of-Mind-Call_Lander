@@ -7,7 +7,7 @@ import WhyChooseUs from './components/WhyChooseUs'
 import Stats from './components/Stats'
 import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
-import PrivacyPolicy from './pages/PrivacyPolicy'
+import DataProtection from './pages/DataProtection'
 import TermsConditions from './pages/TermsConditions'
 import './App.css'
 
@@ -38,7 +38,7 @@ function App() {
       <Header scrolled={scrolled} />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/privacy-policy" element={<DataProtection />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
       </Routes>
       <Footer />

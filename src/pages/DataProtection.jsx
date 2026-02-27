@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import './LegalPages.css'
 
-const PrivacyPolicy = () => {
+const DataProtection = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
         <div className="container">
           <section className="legal-section">
             <p>
-              Thank you for choosing to be part of our community at Capital Media Agency & Peace of Mind Insurance ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="tel:+18335494113">+1 833-549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
+              Thank you for choosing to be part of our community at Capital Media Agency, Centerfield and Peace of Mind Insurance ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="tel:+18335494113">+1 833-549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
             </p>
             <p>
               When you visit our website <a href="https://peaceofmind-co.com">https://peaceofmind-co.com</a> (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it.
@@ -120,7 +120,7 @@ const PrivacyPolicy = () => {
               When you provide your mobile phone number and consent to receive text messages, we collect and use that information solely to communicate with you regarding our services and available Auto Insurance options.
             </p>
             <p>
-              All categories of personal information described in this Privacy Policy exclude text messaging originator opt-in data and consent; this information will not be shared, sold, rented, or transferred to any third parties. Only Capital Media Agency & Peace of Mind Insurance may send text messages to individuals who have opted in.
+              All categories of personal information described in this Privacy Policy exclude text messaging originator opt-in data and consent; this information will not be shared, sold, rented, or transferred to any third parties. Only Capital Media Agency, Centerfield and Peace of Mind Insurance may send text messages to individuals who have opted in.
             </p>
             <p>
               We may share text messaging opt-in data and consent only with our telecommunications service providers (such as Twilio) and mobile network carriers (such as Verizon, AT&T, and T-Mobile) strictly as necessary to deliver text messages or to comply with legal, regulatory, or investigatory requests.
@@ -210,7 +210,7 @@ const PrivacyPolicy = () => {
             <h2>15. How Can You Contact Us About This Notice?</h2>
             <p>If you have questions or comments about this notice, you may contact us at <a href="tel:+18335494113">+1 833-549-4113</a>, email us at <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>, or by post to:</p>
             <div className="contact-info">
-              <p>Capital Media Agency</p>
+              <p>Capital Media Agency, Centerfield and Peace of Mind Insurance</p>
               <p>Peace of Mind Insurance</p>
               <p>United States</p>
             </div>
@@ -219,7 +219,7 @@ const PrivacyPolicy = () => {
           <section className="legal-section">
             <h2>Important Legal Disclosure</h2>
             <p>
-              This website is not a government agency. Peace of Mind Insurance is a private lead generation service owned and operated by Capital Media Agency & Peace of Mind Insurance. Insurance plans referenced may not meet Affordable Care Act (ACA) requirements and may not be available in all states. By submitting your information, you provide express written consent to be contacted by Capital Media Agency & Peace of Mind Insurance via phone call, text message, or email, including through autodialed, AI, or prerecorded messages, even if your number is on a state or national Do Not Call registry. Message frequency may vary and message and data rates may apply. Only Capital Media Agency & Peace of Mind Insurance may send text messages.
+              This website is not a government agency. Peace of Mind Insurance is a private lead generation service owned and operated by Capital Media Agency, Centerfield and Peace of Mind Insurance. Insurance plans referenced may not meet Auto Insurance requirements and may not be available in all states. By submitting your information, you provide express written consent to be contacted by Capital Media Agency, Centerfield and Peace of Mind Insurance via phone call, text message, or email, including through autodialed, AI, or prerecorded messages, even if your number is on a state or national Do Not Call registry. Message frequency may vary and message and data rates may apply. Only Capital Media Agency, Centerfield and Peace of Mind Insurance may send text messages.
             </p>
             <p>
               Your personal information may be shared with licensed insurance agents or third-party partners for marketing purposes or to contact you via voice call or email only; text messaging originator opt-in data and consent will not be shared with any third parties. Submitting your information constitutes permission for an agent to contact you regarding available Auto Insurance coverage options, which may include Major Medical, Short-Term, Fixed Indemnity, or other insurance products. Plan availability, descriptions, and quotes may vary. By using this site, you agree to the Terms of Service and Privacy Policy.
@@ -231,4 +231,4 @@ const PrivacyPolicy = () => {
   )
 }
 
-export default PrivacyPolicy
+export default DataProtection
