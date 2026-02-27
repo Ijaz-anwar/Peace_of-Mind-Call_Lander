@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import { FiPhone } from "react-icons/fi";
 
 import './Header.css'
@@ -18,8 +19,8 @@ const Header = ({ scrolled }) => {
           </Link>
 
           <nav className="nav">
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
+            <HashLink smooth to="/#home">Home</HashLink>
+            <HashLink smooth to="/#features">Features</HashLink>
             <a href="tel:+18335494113">Contact</a>
           </nav>
 
