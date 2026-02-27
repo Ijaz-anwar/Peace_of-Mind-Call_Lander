@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { handlePhoneCall } from '../utils/pixelTracking'
 import './LegalPages.css'
 
-const PrivacyPolicy = () => {
+const DataProtection = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
@@ -213,7 +213,7 @@ const PrivacyPolicy = () => {
             <p>You can reach us by phone at <a href="#" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a> or by email at <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
               , or by post to:</p>
             <div className="contact-info">
-              <p>Capital Media Agency</p>
+              <p>Capital Media Agency, Centerfield and Peace of Mind Insurance</p>
               <p>Peace of Mind Insurance</p>
               <p>United States</p>
             </div>
@@ -234,4 +234,4 @@ const PrivacyPolicy = () => {
   )
 }
 
-export default PrivacyPolicy
+export default DataProtection
