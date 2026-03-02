@@ -21,7 +21,7 @@ const DataProtection = () => {
         <div className="container">
           <section className="legal-section">
             <p>
-              Thank you for choosing to be part of our community at Capital Media Agency, Centerfield and Peace of Mind Insurance ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="#" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 833-549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
+              Thank you for choosing to be part of our community at Capital Media Agency, Centerfield and Peace of Mind Insurance ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="#tel:+18335494113" className="fb_auto_ignore" data-fb-ignore="true" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 833-549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
             </p>
             <p>
               When you visit our website <a href="https://peaceofmind-co.com">https://peaceofmind-co.com</a> (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it.
@@ -168,7 +168,7 @@ const DataProtection = () => {
           <section className="legal-section">
             <h2>11. What Are Your Privacy Rights?</h2>
             <p><strong>In Short:</strong> You may review, change, or terminate your account at any time.</p>
-            <p>If you have questions or comments about your privacy rights, you may contact us at <a href="#" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 833-549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.</p>
+            <p>If you have questions or comments about your privacy rights, you may contact us at <a href="#tel:+18335494113" className="fb_auto_ignore" data-fb-ignore="true" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 833-549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.</p>
             <h3>Account Information</h3>
             <p>
               If you would at any time like to review or change the information in your account or terminate your account, you can log in to your account settings and update your user account, or contact us using the contact information provided.
@@ -210,7 +210,7 @@ const DataProtection = () => {
 
           <section className="legal-section">
             <h2>15. How Can You Contact Us About This Notice?</h2>
-            <p>You can reach us by phone at <a href="#" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a> or by email at <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
+            <p>You can reach us by phone at <a href="#tel:+18335494113" className="fb_auto_ignore" data-fb-ignore="true" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a> or by email at <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
               , or by post to:</p>
             <div className="contact-info">
               <p>Capital Media Agency, Centerfield and Peace of Mind Insurance</p>

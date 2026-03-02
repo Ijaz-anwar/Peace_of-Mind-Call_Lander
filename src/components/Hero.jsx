@@ -31,12 +31,14 @@ const Hero = () => {
             </p>
 
             <div className="hero-actions">
-              <button
-                className="btn-primary"
+              <a
+                href="#tel:+18335494113"
+                className="btn-primary fb_auto_ignore"
+                data-fb-ignore="true"
                 onClick={(e) => handlePhoneCall('+18335494113', e)}
               >
                 <span>+1 833-549-4113</span>
-              </button>
+              </a>
               {/* <button className="btn-primary">
                 <span>+1 (979) 240-1495</span>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

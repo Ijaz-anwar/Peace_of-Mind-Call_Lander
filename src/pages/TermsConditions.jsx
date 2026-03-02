@@ -28,7 +28,7 @@ const TermsConditions = () => {
               We reserve the right to change these Terms of Service or to impose new conditions on use of the Site, from time to time, in which case we will post the revised Terms of Service on this website. By continuing to use the Site after we post any such changes, you accept the Terms of Service, as modified.
             </p>
             <p>
-              By submitting an inquiry you agree that a licensed insurance agent with Peace of Mind Insurance or Capital Media Agency, Centerfield and Peace of Mind Insurance may contact you by phone, text message or email. You expressly consent to receive phone calls (including autodialed and/or pre-recorded calls) text messages and email using automated technology at the phone number and email address you provided, even if it is a wireless number, regardless of whether you are on any Federal or state DNC ("Do Not Call") and/or DNE ("Do Not Email") list or registry. In addition, you understand and acknowledge that data and message rates may apply. Furthermore, you acknowledge that you are over 18 years of age. You may revoke your express consent at any time by contacting us via <a href="#" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a>.
+              By submitting an inquiry you agree that a licensed insurance agent with Peace of Mind Insurance or Capital Media Agency, Centerfield and Peace of Mind Insurance may contact you by phone, text message or email. You expressly consent to receive phone calls (including autodialed and/or pre-recorded calls) text messages and email using automated technology at the phone number and email address you provided, even if it is a wireless number, regardless of whether you are on any Federal or state DNC ("Do Not Call") and/or DNE ("Do Not Email") list or registry. In addition, you understand and acknowledge that data and message rates may apply. Furthermore, you acknowledge that you are over 18 years of age. You may revoke your express consent at any time by contacting us via <a href="#tel:+18335494113" className="fb_auto_ignore" data-fb-ignore="true" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a>.
             </p>
           </section>
 
@@ -155,7 +155,7 @@ const TermsConditions = () => {
               Although it is highly unlikely, this policy may be changed at any time at our discretion. If we should update this policy, we will post the updates to this page on our Website.
             </p>
             <p>
-              If you have any questions about these Terms, please contact us at <a href="#" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
+              If you have any questions about these Terms, please contact us at <a href="#tel:+18335494113" className="fb_auto_ignore" data-fb-ignore="true" onClick={(e) => handlePhoneCall('+18335494113', e)}>+1 (833) 549-4113</a> or <a href="mailto:Leslie@cmediaagency.com">Leslie@cmediaagency.com</a>.
             </p>
           </section>
 
